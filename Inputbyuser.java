@@ -15,5 +15,6 @@ public class Inputbyuser {
 
         System.out.println("Hello "+name);
         System.out.println("You are "+age+" years old"+" Your favourite Show is: "+show);
+        sc.close();
     }
 }
