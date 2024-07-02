@@ -6,11 +6,11 @@ public class Printf {
 		//				two arguments = format string + (object/variable/value)
 		//				% [flags] [precision] [width] [conversion-character]
 				
-		boolean myBoolean = true;
-		char myChar = '@';
-		String myString = "Bro";
-		int myInt = 50;
-		double myDouble = 1000;
+		// boolean myBoolean = true;
+		// char myChar = '@';
+		 String myString = "Bro";
+		// int myInt = 50;
+		 double myDouble = 1000;
 			
 		// [conversion-character]
 		//System.out.printf("%b",myBoolean);
@@ -21,7 +21,7 @@ public class Printf {
 		
 		//[width]
 		// minimum number of characters to be written as output
-		//System.out.printf("Hello %10s",myString);
+		System.out.printf("Hello %10s",myString);
 		
 		//[precision]
 		// sets number of digits of precision when outputting floating-point values
@@ -34,6 +34,6 @@ public class Printf {
 		// 0 : numeric values are zero-padded
 		// , : comma grouping separator if numbers > 1000
 		
-		//System.out.printf("You have this much money %,f",myDouble);
+		System.out.printf("You have this much money %f",myDouble);
 	}
 }
