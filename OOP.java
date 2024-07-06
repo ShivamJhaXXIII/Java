@@ -12,5 +12,7 @@ public class OOP {
         myCar2.model = "Bmw";
 
         System.out.println(myCar2.model);
+
+        System.out.println(myCar2.toString());
     }
 }
